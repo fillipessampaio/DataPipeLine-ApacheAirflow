@@ -6,7 +6,6 @@ from airflow.macros import ds_add
 from os.path import join
 import pandas as pd
 
-
 with DAG(
     dag_id='climate_data',
     start_date=pendulum.datetime(2022, 12, 5, tz='UTC'),
