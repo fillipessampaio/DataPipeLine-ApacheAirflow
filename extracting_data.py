@@ -13,7 +13,6 @@ end_date = start_date + timedelta(days=7)
 start_date = start_date.strftime('%Y-%m-%d')
 end_date = end_date.strftime('%Y-%m-%d')
 
-
 # API URL 
 city = 'Toronto'
 key = '64NSBQ9FEQQ4SF7YY2AXNMMW7'
